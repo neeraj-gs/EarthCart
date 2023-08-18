@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
   return (
@@ -7,7 +8,7 @@ function Header() {
         <img className='header_logo' src="" alt="Earth Cart Logo" />
         <div className="header_search">
             <input type="text" className="header_search" />
-            {/* Logo for search we do using Material UI  */}
+            <SearchIcon className='header_searchIcon'></SearchIcon>
         </div>
         <nav className="header_nav">
           <div className='header_option'>
