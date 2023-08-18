@@ -7,3 +7,48 @@
     top:0;
     z-index: 100;
 }
+
+.header_search{
+    display: flex;
+    flex: 1; /*It Spreads or stetches to as big as it can go*/
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header_search_input{
+    height: 12px;
+    padding: 10px;
+    border:#69863C solid ;
+    width: 95%;
+    border-radius: 100px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #69863C;
+}
+
+.option_line1{
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+}
+
+.header_option_basket{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.header_basket_content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
